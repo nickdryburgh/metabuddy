@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/metabuddy/static/css/main.b724b999.css",
-    "main.js": "/metabuddy/static/js/main.21b5bd7e.js",
+    "main.js": "/metabuddy/static/js/main.0314d637.js",
     "static/js/787.3ec56212.chunk.js": "/metabuddy/static/js/787.3ec56212.chunk.js",
     "index.html": "/metabuddy/index.html",
     "main.b724b999.css.map": "/metabuddy/static/css/main.b724b999.css.map",
-    "main.21b5bd7e.js.map": "/metabuddy/static/js/main.21b5bd7e.js.map",
+    "main.0314d637.js.map": "/metabuddy/static/js/main.0314d637.js.map",
     "787.3ec56212.chunk.js.map": "/metabuddy/static/js/787.3ec56212.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b724b999.css",
-    "static/js/main.21b5bd7e.js"
+    "static/js/main.0314d637.js"
   ]
 }
