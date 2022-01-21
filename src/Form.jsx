@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import './App.css';
 
 const initialValues = {
-	weight: '',
-	height: '',
+	xcoord: 0,
+	ycoord: 0,
 	date: ''
 }
 
@@ -33,29 +33,29 @@ const Form = ({ change }) => {
 		<>
 			<div className="row">
 				<div className="col m6 s12">
-					<label htmlFor="weight">X Coordinate</label>
+					<label htmlFor="xcoord">X Coordinate</label>
 					<input
-						id="weight"
-						name="weight"
+						id="xcoord"
+						name="xcoord"
 						type="number"
 						min="-150"
 						max="150"
 						placeholder="0"
-						value={state.weight}
+						value={state.xcoord}
 						onChange={handleChange}
 					/>
 				</div>
 
 				<div className="col m6 s12">
-					<label htmlFor="height">Y Coordinate</label>
+					<label htmlFor="ycoord">Y Coordinate</label>
 					<input
-						id="height"
-						name="height"
+						id="ycoord"
+						name="ycoord"
 						type="number"
 						min="-150"
 						max="150"
 						placeholder="0"
-						value={state.height}
+						value={state.ycoord}
 						onChange={handleChange}
 					/>
 				</div>
@@ -65,7 +65,7 @@ const Form = ({ change }) => {
 					id="bmi-btn"
 					className="calculate-btn"
 					type="button"
-					disabled={state.weight === '' || state.height === ''}
+					//disabled={state.weight === '' || state.height === ''}
 					onClick={handleSubmit}
 				>
 					See What's There
